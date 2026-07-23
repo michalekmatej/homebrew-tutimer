@@ -1,12 +1,12 @@
 class Tutimer < Formula
   desc "Terminal speedcubing timer"
   homepage "https://github.com/michalekmatej/TUtimer"
-  version "1.2.0"
+  version "1.3.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/michalekmatej/homebrew-tutimer/releases/download/v1.2.0/tutimer-1.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "2a7e23c41f8f0621526fc6f56a09311d304da1921a7e5ee6bc672d3a3007598a"
+      url "https://github.com/michalekmatej/homebrew-tutimer/releases/download/v1.3.0/tutimer-1.3.0-aarch64-apple-darwin.tar.gz"
+      sha256 "041d6e02e47558ae21dca54db72cf858335f366addf07b10bf6f981feaeaa52d"
     else
       odie "tutimer currently ships Homebrew binaries for Apple Silicon only."
     end
